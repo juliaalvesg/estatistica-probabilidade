@@ -1,0 +1,71 @@
+/* Reset de Estilos para Limpar Padrões do Navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos Gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Seus estilos existentes */
+
+/* Novos estilos para os ícones */
+.icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .card {
+    width: 350px; /* Aumento do tamanho do card */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px; /* Aumento do espaçamento interno */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 32px; /* Aumento do tamanho da fonte */
+    color: #333;
+  }
+  
+  h2 {
+    margin-bottom: 15px; /* Ajuste do espaçamento */
+    font-size: 28px; /* Aumento do tamanho da fonte */
+    color: #444;
+  }
+  
+  p {
+    font-size: 18px; /* Aumento do tamanho da fonte */
+    color: #666;
+  }
+  
+  /* Media Query para Telas Pequenas */
+  @media (max-width: 768px) {
+    .card {
+      width: 80%;
+    }
+  }
+  
